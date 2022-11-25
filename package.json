@@ -52,7 +52,7 @@
     "@angular/platform-browser": "15.0.1",
     "@angular/platform-browser-dynamic": "15.0.1",
     "@angular/upgrade": "15.0.1",
-    "@rollup/plugin-babel": "6.0.2",
+    "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-node-resolve": "15.0.1",
     "concurrently": "7.6.0",
     "husky": "8.0.2",
