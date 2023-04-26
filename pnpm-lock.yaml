@@ -23,14 +23,14 @@ specifiers:
   rimraf: 5.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.8.0
+  rxjs: 7.8.1
   typescript: 5.0.4
 
 devDependencies:
-  '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.0
+  '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.1
   '@angular/compiler': 15.2.7_@angular+core@15.2.7
   '@angular/compiler-cli': 15.2.7_4eb9e0aebee2f3cd9388e335751f03c6
-  '@angular/core': 15.2.7_rxjs@7.8.0
+  '@angular/core': 15.2.7_rxjs@7.8.1
   '@angular/platform-browser': 15.2.7_03efd97a56735fec4de4cc6e0db004a1
   '@angular/platform-browser-dynamic': 15.2.7_9ab69263c8f1277df665d7eea5737a89
   '@angular/upgrade': 15.2.7_20d5add6f0a4827e0baa5f2f703d9b1d
@@ -49,7 +49,7 @@ devDependencies:
   rimraf: 5.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
-  rxjs: 7.8.0
+  rxjs: 7.8.1
   typescript: 5.0.4
 
 packages:
@@ -61,15 +61,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/common/15.2.7_@angular+core@15.2.7+rxjs@7.8.0:
+  /@angular/common/15.2.7_@angular+core@15.2.7+rxjs@7.8.1:
     resolution: {integrity: sha512-CbmrQeZ0yChQrF/ab3v+gv6x2uLbv/s1wZNUBSO/p1STz6BZzHRJqObVlfPlQvyBx5btBBy/+I1sUh1yumARDA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       '@angular/core': 15.2.7
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 15.2.7_rxjs@7.8.0
-      rxjs: 7.8.0
+      '@angular/core': 15.2.7_rxjs@7.8.1
+      rxjs: 7.8.1
       tslib: 2.3.1
     dev: true
 
@@ -106,18 +106,18 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.2.7_rxjs@7.8.0
+      '@angular/core': 15.2.7_rxjs@7.8.1
       tslib: 2.3.1
     dev: true
 
-  /@angular/core/15.2.7_rxjs@7.8.0:
+  /@angular/core/15.2.7_rxjs@7.8.1:
     resolution: {integrity: sha512-iS7JCJubRFqdndoUdAnvNkQRT3tY5tNFupBQS/sytkwxVrdBg+Is5jpdgk741n824vTMsE+CnuY0SETar8rN6g==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.11.4 || ~0.12.0 || ~0.13.0
     dependencies:
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       tslib: 2.3.1
     dev: true
 
@@ -130,9 +130,9 @@ packages:
       '@angular/core': 15.2.7
       '@angular/platform-browser': 15.2.7
     dependencies:
-      '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.0
+      '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.1
       '@angular/compiler': 15.2.7_@angular+core@15.2.7
-      '@angular/core': 15.2.7_rxjs@7.8.0
+      '@angular/core': 15.2.7_rxjs@7.8.1
       '@angular/platform-browser': 15.2.7_03efd97a56735fec4de4cc6e0db004a1
       tslib: 2.3.1
     dev: true
@@ -148,8 +148,8 @@ packages:
       '@angular/animations':
         optional: true
     dependencies:
-      '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.0
-      '@angular/core': 15.2.7_rxjs@7.8.0
+      '@angular/common': 15.2.7_@angular+core@15.2.7+rxjs@7.8.1
+      '@angular/core': 15.2.7_rxjs@7.8.1
       tslib: 2.3.1
     dev: true
 
@@ -163,7 +163,7 @@ packages:
       '@angular/platform-browser-dynamic': 15.2.7
     dependencies:
       '@angular/compiler': 15.2.7_@angular+core@15.2.7
-      '@angular/core': 15.2.7_rxjs@7.8.0
+      '@angular/core': 15.2.7_rxjs@7.8.1
       '@angular/platform-browser': 15.2.7_03efd97a56735fec4de4cc6e0db004a1
       '@angular/platform-browser-dynamic': 15.2.7_9ab69263c8f1277df665d7eea5737a89
       tslib: 2.3.1
@@ -1116,7 +1116,7 @@ packages:
       chalk: 4.1.2
       date-fns: 2.29.3
       lodash: 4.17.21
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       shell-quote: 1.8.0
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -2100,7 +2100,7 @@ packages:
       mute-stream: 1.0.0
       ora: 6.3.0
       run-async: 2.4.1
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       string-width: 5.1.2
       strip-ansi: 7.0.1
       through: 2.3.8
@@ -3402,8 +3402,8 @@ packages:
       queue-microtask: 1.2.2
     dev: true
 
-  /rxjs/7.8.0:
-    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
+  /rxjs/7.8.1:
+    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
       tslib: 2.3.1
     dev: true
