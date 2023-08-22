@@ -9,7 +9,7 @@ specifiers:
   '@angular/platform-browser-dynamic': 15.2.9
   '@angular/upgrade': 15.2.9
   '@rollup/plugin-babel': 6.0.3
-  '@rollup/plugin-node-resolve': 15.2.0
+  '@rollup/plugin-node-resolve': 15.2.1
   concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
@@ -35,7 +35,7 @@ devDependencies:
   '@angular/platform-browser-dynamic': 15.2.9_d9a930ee6b33e67533071102764043e5
   '@angular/upgrade': 15.2.9_832ba230afa03b040fdeff8308947a1d
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
-  '@rollup/plugin-node-resolve': 15.2.0_rollup@2.79.1
+  '@rollup/plugin-node-resolve': 15.2.1_rollup@2.79.1
   concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
@@ -624,8 +624,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-node-resolve/15.2.0_rollup@2.79.1:
-    resolution: {integrity: sha512-mKur03xNGT8O9ODO6FtT43ITGqHWZbKPdVJHZb+iV9QYcdlhUUB0wgknvA4KCUmC5oHJF6O2W1EgmyOQyVUI4Q==}
+  /@rollup/plugin-node-resolve/15.2.1_rollup@2.79.1:
+    resolution: {integrity: sha512-nsbUg588+GDSu8/NS8T4UAshO6xeaOfINNuXeVHcKV02LJtoRaM1SiOacClw4kws1SFiNhdLGxlbMY9ga/zs/w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0
