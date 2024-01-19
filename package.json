@@ -26,7 +26,7 @@
     "postpublish": "pinst --enable"
   },
   "files": [
-    "esm",
+    "es2022",
     "system"
   ],
   "repository": {
