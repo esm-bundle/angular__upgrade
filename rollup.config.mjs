@@ -2,7 +2,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
@@ -15,9 +15,9 @@ const __dirname = new url.URL(".", import.meta.url).pathname;
 const packageJson = JSON.parse(
   fs
     .readFileSync(
-      path.resolve(__dirname, "node_modules/@angular/upgrade/package.json")
+      path.resolve(__dirname, "node_modules/@angular/upgrade/package.json"),
     )
-    .toString()
+    .toString(),
 );
 
 /** File system used by the Angular linker plugin. */
@@ -34,7 +34,7 @@ const linkerPlugin = createEs2015LinkerPlugin({
   linkerJitMode: false,
 });
 
-const packages = ["2015", "2020"]
+const packages = ["2022"]
   .map((ecma) => [
     {
       ecma,
@@ -76,7 +76,7 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
   return {
     input: path.join(
       __dirname,
-      `node_modules/@angular/upgrade/fesm${ecma}/${filename}.mjs`
+      `node_modules/@angular/upgrade/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
       file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
